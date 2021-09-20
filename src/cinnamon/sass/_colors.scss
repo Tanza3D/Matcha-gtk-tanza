@@ -6,24 +6,32 @@ $text_color: if($variant == 'light', #303d41, #abb9b6);
 $bg_color: if($variant =='light', #f7f7f7, #1b2224);
 $fg_color: if($variant =='light', #273134, #ccd7d4);
 
-@if $color=='aliz' {
+@if $color=='alice' or $color=='amethyst' {
   $base_color: if($variant =='light', #ffffff, #262626);
   $text_color: if($variant == 'light', #363636, #b5abab);
   $bg_color: if($variant =='light', #f7f7f7, #222222);
   $fg_color: if($variant =='light', #323232, #cbbfbf);
 }
 
-@if $color=='azul' {
+@if $color=='azure' {
   $base_color: if($variant =='light', #ffffff, #22252c);
   $text_color: if($variant == 'light', #2e313d, #afb4ba);
   $bg_color: if($variant =='light', #f7f7f7, #1b1d24);
   $fg_color: if($variant =='light', #2b2f3b, #bbc3c8);
 }
 
+@if $color=='amethyst' {
+  $base_color: if($variant =='light', #ffffff, #262626);
+  $text_color: if($variant == 'light', #363636, #bababa);
+  $bg_color: if($variant =='light', #f7f7f7, #222222);
+  $fg_color: if($variant =='light', #323232, #bfbfbf);
+}
+
 $selected_fg_color: #ffffff;
-$selected_bg_color: #2eb398;
-@if $color=='aliz' { $selected_bg_color: #F0544C; }
-@if $color=='azul' { $selected_bg_color: #3498db; }
+$selected_bg_color: #73d216;
+@if $color=='alice' { $selected_bg_color: #ef2929; }
+@if $color=='azure' { $selected_bg_color: #3465a4; }
+@if $color=='amethyst' { $selected_bg_color: #75507b; }
 $alt_selected_bg_color: lighten($selected_bg_color, 6%);
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', darken($bg_color, 15%), darken($bg_color, 2%));
@@ -38,15 +46,16 @@ $warning_color: #F27835;
 $error_color: #FC4138;
 $warning_fg_color: white;
 $error_fg_color: white;
-$success_color: #2eb398;
+$success_color: #73d216;
 $destructive_color: #db5b5b;
 $suggested_color: #db5b5b;
 $destructive_fg_color: white;
 $suggested_fg_color: white;
 
 $progress_color: #db5b5b;
-@if $color=='aliz' { $progress_color: #00C487; }
-@if $color=='azul' { $progress_color: #7C4DFF; }
+@if $color=='alice' { $progress_color: #cc0000; }
+@if $color=='azure' { $progress_color: #729fcf; }
+@if $color=='amethyst' { $progress_color: #ad7fa8; }
 $drop_target_color: #F08437;
 
 //insensitive state derived colors
@@ -54,21 +63,21 @@ $insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), 
 $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
 
 $header_bg: #1b2224;
-@if $color=='sea' and $variant=='light' { $header_bg: #1b2224; }
-@if $color=='sea' and $variant=='dark' { $header_bg: darken(#1b2224, 3%); }
-@if $color=='aliz' and $variant=='light' { $header_bg: #222222; }
-@if $color=='aliz' and $variant=='dark' { $header_bg: darken(#222222, 3%); }
-@if $color=='azul' and $variant=='light' { $header_bg: #1b1d24; }
-@if $color=='azul' and $variant=='dark' { $header_bg: darken(#1b1d24, 3%); }
+@if $color=='alice' and $variant=='light' { $header_bg: #222222; }
+@if $color=='alice' and $variant=='dark' { $header_bg: darken(#222222, 3%); }
+@if $color=='azure' and $variant=='light' { $header_bg: #1b1d24; }
+@if $color=='azure' and $variant=='dark' { $header_bg: darken(#1b1d24, 3%); }
+@if $color=='amethyst' and $variant=='light' { $header_bg: #222222; }
+@if $color=='amethyst' and $variant=='dark' { $header_bg: darken(#222222, 3%); }
 
 $header_bg_backdrop: if($variant == 'dark', lighten($header_bg, 2%), lighten($header_bg, 3%));
 $header_border: if($variant == 'light', darken($header_bg, 7%), darken($header_bg, 4%));
 $header_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 
 $dark_sidebar_bg: #303b3e;
-@if $color=='sea' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#303b3e, 0.05), #303b3e); }
-@if $color=='aliz' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#363636, 0.05), #363636); }
-@if $color=='azul' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#30343e, 0.05), #30343e); }
+@if $color=='alice' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#363636, 0.05), #363636); }
+@if $color=='azure' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#30343e, 0.05), #30343e); }
+@if $color=='amethyst' { $dark_sidebar_bg: if($transparency == 'true', transparentize(#303b3e, 0.05), #303b3e); }
 $dark_sidebar_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 

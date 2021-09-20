@@ -1,4 +1,19 @@
-<img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme
+# Matcha GTK Custom
+This repository contains my custom theme of Matcha GTK theme with Alice/Azure/Tea as high-contrast recolor of Aliz/Azul/Sea and Amethyst as a newly-made purple accent. This repo doesn't include any vanilla color. 
+
+### Accent color comparason
+| Colors    | Upstream          | Custom                |
+| ---       | ---               | ---                   |
+| Red       | Aliz (#F0544C)    | Alice (#EF2929)       |
+| Blue      | Azul (#3498DB)    | Azure (#3465A4)       |
+| Green     | Sea (#2EB398)     | Alice (#73D216)       |
+| Purple    | None              | Amethyst (#75507B)    |
+
+### TODO
+- [ ] Painstakingly recolor all png assets
+- [ ] Add screenshots
+
+<img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme [Original README]
 ======
 
 Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
@@ -52,7 +67,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 | -d, --dest    | Specify theme destination directory (Default: $HOME/.themes) |
 | -n, --name    | Specify theme name (Default: Matcha) |
 | -c, --color   | Specify theme color variant(s) **[standard/light/dark]** (Default: All variants) |
-| -t, --theme   | Specify hue theme variant(s) **[aliz/azul/sea/pueril]** (Default: All variants) |
+| -t, --theme   | Specify hue theme variant(s) **[alice/azure/tea/amethyst]** (Default: All variants) |
 | -g, --gdm     | Install GDM theme, this option need root user authority! please run this with sudo |
 | -r, --revert  | revert GDM theme, this option need root user authority! please run this with sudo |
 | -h, --help    | Show this help |

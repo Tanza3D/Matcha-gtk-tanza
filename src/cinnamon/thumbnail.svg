@@ -305,17 +305,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="-1050.5586"
-     inkscape:cy="1882.9243"
+     inkscape:zoom="0.70000002"
+     inkscape:cx="1182.8571"
+     inkscape:cy="1287.1428"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1006"
-     inkscape:window-x="1366"
-     inkscape:window-y="26"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:pagecheckerboard="0">
     <inkscape:grid
@@ -357,8 +357,11 @@
      id="layer1"
      transform="translate(0,-203.33748)">
     <g
-       id="thumbnail-aliz"
-       inkscape:label="#thumbnail-aliz">
+       id="thumbnail-alice"
+       inkscape:label="#thumbnail-alice"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-alice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          inkscape:label="#g1155"
          id="panel">
@@ -479,7 +482,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#f0544c;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
+             style="display:inline;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="rect4243"
              inkscape:connector-curvature="0"
@@ -741,10 +744,10 @@
            id="text832-6"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f0544c;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f0544c;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ef2929;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan830-7"
@@ -791,7 +794,7 @@
            height="7.4081812"
            width="42.068752"
            id="rect826-7"
-           style="fill:#f0544c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.9868716;stroke-opacity:0.11000001"
+           style="fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.9868716;stroke-opacity:0.11000001"
            inkscape:label="indicator" />
         <text
            id="text832-5-1"
@@ -979,7 +982,7 @@
                cy="246.72914"
                cx="139.17084"
                id="today-indicator"
-               style="fill:#f0544c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+               style="fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
                inkscape:label="#path828-4" />
             <text
                xml:space="preserve"
@@ -1272,8 +1275,11 @@
       </g>
     </g>
     <g
-       id="thumbnail-dark-aliz"
-       inkscape:label="#thumbnail-dark-aliz">
+       id="thumbnail-dark-alice"
+       inkscape:label="#thumbnail-dark-alice"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-dark-alice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          inkscape:label="#g1155"
          id="panel-3"
@@ -1291,7 +1297,7 @@
            height="7.4083567"
            width="42.068756"
            id="rect826-7-4"
-           style="fill:#f0544c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688334;stroke-opacity:0.11000001"
+           style="fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688334;stroke-opacity:0.11000001"
            inkscape:label="indicator" />
         <g
            style="display:inline;enable-background:new"
@@ -1403,7 +1409,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#f0544c;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
+             style="display:inline;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="rect4243-1"
              inkscape:connector-curvature="0"
@@ -1665,10 +1671,10 @@
            id="text832-6-5"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f0544c;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f0544c;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ef2929;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan830-7-5"
@@ -1893,7 +1899,7 @@
              cy="246.72914"
              cx="139.17084"
              id="today-indicator-1"
-             style="fill:#f0544c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+             style="fill:#ef2929;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
              inkscape:label="#path828-4" />
           <text
              xml:space="preserve"
@@ -2185,8 +2191,11 @@
       </g>
     </g>
     <g
-       id="thumbnail-azul"
-       transform="translate(0,137.58333)">
+       id="thumbnail-azure"
+       transform="translate(0,137.58333)"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-azure.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          id="g1740"
          inkscape:label="#g1155">
@@ -2311,7 +2320,7 @@
              inkscape:connector-curvature="0"
              id="path1636"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
-             style="display:inline;fill:#3498db;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new" />
+             style="display:inline;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new" />
           <path
              sodipodi:nodetypes="ssccsss"
              inkscape:connector-curvature="0"
@@ -2568,7 +2577,7 @@
         <text
            inkscape:label="workspace-switcher-1"
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#3498db;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="146.40605"
            y="294.8833"
            id="text1720"><tspan
@@ -2576,7 +2585,7 @@
              id="tspan1718"
              x="146.40605"
              y="294.8833"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#3498db;fill-opacity:1;stroke-width:0.264583">1</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#3465a4;fill-opacity:1;stroke-width:0.264583">1</tspan></text>
         <text
            inkscape:label="workspace-switcher-2"
            xml:space="preserve"
@@ -2615,7 +2624,7 @@
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#cfd8dc;fill-opacity:1;stroke-width:0.264583">4</tspan></text>
         <rect
            inkscape:label="indicator"
-           style="fill:#3498db;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688215;stroke-opacity:0.11000001"
+           style="fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688215;stroke-opacity:0.11000001"
            id="rect1738"
            width="42.068752"
            height="7.40834"
@@ -2804,7 +2813,7 @@
                  sodipodi:role="line">4</tspan></text>
             <circle
                inkscape:label="#path828-4"
-               style="fill:#3498db;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+               style="fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
                id="circle1798"
                cx="139.17084"
                cy="246.72914"
@@ -3100,9 +3109,12 @@
       </g>
     </g>
     <g
-       id="thumbnail-dark-azul"
+       id="thumbnail-dark-azure"
        transform="translate(0,137.58333)"
-       inkscape:label="#thumbnail-dark-azul">
+       inkscape:label="#thumbnail-dark-azure"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-dark-azure.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          transform="translate(288.39584,1.1387909e-5)"
          id="g2046"
@@ -3228,7 +3240,7 @@
              inkscape:connector-curvature="0"
              id="path1942"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
-             style="display:inline;fill:#3498db;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new" />
+             style="display:inline;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new" />
           <path
              sodipodi:nodetypes="ssccsss"
              inkscape:connector-curvature="0"
@@ -3532,7 +3544,7 @@
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#cfd8dc;fill-opacity:1;stroke-width:0.264583">4</tspan></text>
         <rect
            inkscape:label="indicator"
-           style="fill:#3498db;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688293;stroke-opacity:0.11000001"
+           style="fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688293;stroke-opacity:0.11000001"
            id="rect2044"
            width="42.068756"
            height="7.4083509"
@@ -3719,7 +3731,7 @@
                sodipodi:role="line">4</tspan></text>
           <circle
              inkscape:label="#path828-4"
-             style="fill:#3498db;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+             style="fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
              id="circle2104"
              cx="139.17084"
              cy="246.72914"
@@ -4016,7 +4028,10 @@
     <g
        transform="translate(0,282.57499)"
        id="thumbnail-sea"
-       inkscape:label="#thumbnail-sea">
+       inkscape:label="#thumbnail-sea"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-tea.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          inkscape:label="#g1155"
          id="g2362">
@@ -4137,7 +4152,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#2eb398;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
+             style="display:inline;fill:#73d216;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="path2258"
              inkscape:connector-curvature="0"
@@ -4399,10 +4414,10 @@
            id="text2342"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2eb398;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#73d216;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#2eb398;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#73d216;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan2340"
@@ -4449,7 +4464,7 @@
            height="7.4083319"
            width="42.068752"
            id="rect2360"
-           style="fill:#2eb398;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688161;stroke-opacity:0.11000001"
+           style="fill:#73d216;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688161;stroke-opacity:0.11000001"
            inkscape:label="indicator" />
         <text
            id="text2358"
@@ -4637,7 +4652,7 @@
                cy="246.72914"
                cx="139.17084"
                id="circle2420"
-               style="fill:#2eb398;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+               style="fill:#73d216;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
                inkscape:label="#path828-4" />
             <text
                xml:space="preserve"
@@ -4932,7 +4947,10 @@
     <g
        transform="translate(0,282.57499)"
        id="thumbnail-dark-sea"
-       inkscape:label="#thumbnail-dark-sea">
+       inkscape:label="#thumbnail-dark-sea"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-dark-tea.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          inkscape:label="#g1155"
          id="g2668"
@@ -5054,7 +5072,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#2eb398;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
+             style="display:inline;fill:#73d216;fill-opacity:1;stroke:none;stroke-width:0.26458335;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="path2564"
              inkscape:connector-curvature="0"
@@ -5316,10 +5334,10 @@
            id="text2648"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2eb398;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#73d216;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#2eb398;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#73d216;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan2646"
@@ -5366,7 +5384,7 @@
            height="7.4083433"
            width="42.068756"
            id="rect2666"
-           style="fill:#2eb398;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688239;stroke-opacity:0.11000001"
+           style="fill:#73d216;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98688239;stroke-opacity:0.11000001"
            inkscape:label="indicator" />
         <text
            id="text2664"
@@ -5552,7 +5570,7 @@
              cy="246.72914"
              cx="139.17084"
              id="circle2726"
-             style="fill:#2eb398;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
+             style="fill:#73d216;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.28228101;stroke-opacity:0.11000001"
              inkscape:label="#path828-4" />
           <text
              xml:space="preserve"
@@ -5845,9 +5863,9 @@
     </g>
     <g
        transform="translate(0,428.6259)"
-       id="thumbnail-pueril"
-       inkscape:label="thumbnail-pueril"
-       inkscape:export-filename="/home/kunruh/src/Matcha-gtk-theme/src/cinnamon/thumbnail-pueril.png"
+       id="thumbnail-amethyst"
+       inkscape:label="thumbnail-amethyst"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-amethyst.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
@@ -5970,7 +5988,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#97bb72;fill-opacity:1;stroke:none;stroke-width:0.264583;enable-background:new"
+             style="display:inline;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.264583;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="path1451"
              inkscape:connector-curvature="0"
@@ -6232,10 +6250,10 @@
            id="text1535"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#97bb72;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#97bb72;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#75507b;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan1533"
@@ -6282,7 +6300,7 @@
            height="7.4083319"
            width="42.068752"
            id="rect1549"
-           style="fill:#97bb72;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.986882;stroke-opacity:0.11"
+           style="fill:#75507b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.986882;stroke-opacity:0.11"
            inkscape:label="indicator" />
         <text
            id="text1553"
@@ -6470,7 +6488,7 @@
                cy="246.72914"
                cx="139.17084"
                id="circle1613"
-               style="fill:#97bb72;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.282281;stroke-opacity:0.11"
+               style="fill:#75507b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.282281;stroke-opacity:0.11"
                inkscape:label="#path828-4" />
             <text
                xml:space="preserve"
@@ -6763,10 +6781,10 @@
       </g>
     </g>
     <g
-       transform="translate(0,428.6259)"
-       id="thumbnail-dark-pueril"
-       inkscape:label="thumbnail-dark-pueril"
-       inkscape:export-filename="/home/kunruh/src/Matcha-gtk-theme/src/cinnamon/thumbnail-dark-pueril.png"
+       transform="matrix(1,0,0,0.99996141,-5.046546e-6,428.63736)"
+       id="thumbnail-dark-amethyst"
+       inkscape:label="thumbnail-dark-amethyst"
+       inkscape:export-filename="/home/fawzan/Git/Matcha-gtk-custom/src/cinnamon/thumbnail-dark-amethyst.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
@@ -6890,7 +6908,7 @@
            inkscape:label="show-desktop"
            transform="matrix(0.90857634,0,0,0.89999944,1.5994805,29.091623)">
           <path
-             style="display:inline;fill:#97bb72;fill-opacity:1;stroke:none;stroke-width:0.264583;enable-background:new"
+             style="display:inline;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.264583;enable-background:new"
              d="m 23.283334,291.70831 v 4.10104 c 0,0.21987 0.177006,0.39688 0.396875,0.39688 h 5.027083 c 0.219869,0 0.429096,-0.17938 0.396875,-0.39688 v -4.10104 z"
              id="path1757"
              inkscape:connector-curvature="0"
@@ -7152,10 +7170,10 @@
            id="text1841"
            y="294.8833"
            x="146.40605"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#97bb72;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"
            inkscape:label="workspace-switcher-1"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#97bb72;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#75507b;fill-opacity:1;stroke-width:0.264583"
              y="294.8833"
              x="146.40605"
              id="tspan1839"
@@ -7202,7 +7220,7 @@
            height="7.4083433"
            width="42.068756"
            id="rect1855"
-           style="fill:#97bb72;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.986882;stroke-opacity:0.11"
+           style="fill:#75507b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.986882;stroke-opacity:0.11"
            inkscape:label="indicator" />
         <text
            id="text1859"
@@ -7388,7 +7406,7 @@
              cy="246.72914"
              cx="139.17084"
              id="circle1919"
-             style="fill:#97bb72;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.282281;stroke-opacity:0.11"
+             style="fill:#75507b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.282281;stroke-opacity:0.11"
              inkscape:label="#path828-4" />
           <text
              xml:space="preserve"
