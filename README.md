@@ -1,5 +1,7 @@
-# Matcha GTK Custom
-This repository contains my custom theme of Matcha GTK theme with Alice/Azure/Tea as high-contrast recolor of Aliz/Azul/Sea and Amethyst as a newly-made purple accent. This repo doesn't include any vanilla color. 
+<img src="https://raw.githubusercontent.com/vinceliuice/Matcha-gtk-theme/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Custom
+======
+
+This repository contains my custom theme of Matcha GTK theme with Alice/Azure/Tea as recolor of Aliz/Azul/Sea and Amethyst as a newly-made purple accent. This repo doesn't include any vanilla color. 
 
 ### Accent color comparason
 | Colors    | Upstream          | Custom                |
@@ -11,13 +13,12 @@ This repository contains my custom theme of Matcha GTK theme with Alice/Azure/Te
 
 <img src="https://raw.githubusercontent.com/fawzakin/Matcha-gtk-theme/imgs/compare.png" alt="Compare" width="390"/>  
 
-### TODO
-- [x] Painstakingly recolor all png assets (There's a bash script afterall)
-- [ ] Add screenshots
-- [ ] Modify `update-matcha-online.sh` to download this fork instead of the upstream
+### TODO:
+- [x] ~~Painstakingly~~ recolor all png assets (There are bash scripts to automate this after all)
+- [ ] Add screenshots for this fork
+- [ ] Modify `update-matcha-online.sh` to download this fork instead of upstream
 
-<img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme [Original README]
-======
+# Matcha Gtk Theme [Original README]
 
 Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
 
