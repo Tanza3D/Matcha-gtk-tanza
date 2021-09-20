@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="484"
    height="276"
    version="1.1"
    id="svg1278"
    sodipodi:docname="assets-amethyst.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07, custom)">
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata1282">
     <rdf:RDF>
@@ -36,22 +35,23 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1006"
+     inkscape:window-height="1047"
      id="namedview1280"
      showgrid="false"
-     inkscape:zoom="5.3260868"
-     inkscape:cx="353.71872"
-     inkscape:cy="83.417163"
+     inkscape:zoom="1.883056"
+     inkscape:cx="262.33951"
+     inkscape:cy="108.33453"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1278"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <defs
      id="defs20">
     <linearGradient
        id="selected_fg_color"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          stop-color="#ffffffgit"
          offset="0"
@@ -1206,7 +1206,7 @@
              fill="#db5b5b"
              opacity=".9"
              id="rect322"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.938"
              cy="1041.4"
@@ -1285,7 +1285,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect348"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.938"
              cy="1041.4"
@@ -1313,7 +1313,7 @@
              d="m172 58a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7zm-3 3.9219h0.75c8e-3 -9e-5 0.0156-3.45e-4 0.0234 0 0.19121 0.0084 0.3824 0.09643 0.51562 0.23438l1.711 1.7109 1.7344-1.7109c0.19921-0.17288 0.335-0.22912 0.51562-0.23438h0.75v0.75c0 0.21485-0.0258 0.41299-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21094 0.53906v0.75h-0.75c-0.19898-8e-6 -0.39794-0.06982-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14112 0.14114-0.34009 0.21094-0.53906 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53906l1.7109-1.6875-1.7109-1.7109c-0.15806-0.14597-0.22737-0.35194-0.21094-0.5625z"
              fill="#f46067"
              id="path359"
-             style="fill:#9bc78d;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -1707,7 +1707,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect480"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.875"
              cy="1041.4"
@@ -1786,7 +1786,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect506"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.875"
              cy="1041.4"
@@ -2297,7 +2297,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect656"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.875"
              cy="1041.4"
@@ -2376,7 +2376,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect682"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.875"
              cy="1041.4"
@@ -2430,7 +2430,7 @@
              d="m414 58a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7zm-3 3.9219h0.75c8e-3 -9e-5 0.0156-3.45e-4 0.0234 0 0.19121 0.0084 0.3824 0.09643 0.51562 0.23438l1.711 1.7109 1.7344-1.7109c0.19921-0.17288 0.335-0.22912 0.51562-0.23438h0.75v0.75c0 0.21485-0.0258 0.41299-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21094 0.53906v0.75h-0.75c-0.19898-8e-6 -0.39794-0.06982-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14112 0.14114-0.34009 0.21094-0.53906 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53906l1.7109-1.6875-1.7109-1.7109c-0.15806-0.14597-0.22737-0.35194-0.21094-0.5625z"
              fill="#cc575d"
              id="path700"
-             style="fill:#b9d97e;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -2714,7 +2714,7 @@
              ry="11"
              fill="#41ceb2"
              id="rect792"
-             style="fill:#a9c78a;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
           <circle
              cx="41.047"
              cy="1041.4"
@@ -2791,7 +2791,7 @@
              ry="11"
              fill="#41ceb2"
              id="rect818"
-             style="fill:#a9c78a;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
           <circle
              cx="40.561"
              cy="1041.4"
@@ -2867,7 +2867,7 @@
              ry="11"
              fill="#41ceb2"
              id="rect844"
-             style="fill:#a9c78a;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
           <circle
              cx="40.561"
              cy="1041.4"
@@ -2933,7 +2933,7 @@
              d="m189 184c-5.5228 3e-5 -10 4.4772-10 10s4.4772 10 10 10c5.5228-3e-5 10-4.4772 10-10s-4.4772-10-10-10zm-3.9961 6h1c0.0138-1.2e-4 0.0197-4.7e-4 0.0293 0 0.25479 0.011 0.50985 0.12844 0.6875 0.3125l2.2812 2.2812 2.3106-2.2812c0.26536-0.23049 0.44659-0.3055 0.68749-0.3125h1v1c0 0.28647-0.0345 0.55067-0.25 0.75l-2.2793 2.2812 2.248 2.25c0.1881 0.18816 0.28125 0.45346 0.28125 0.71875v1h-1c-0.26524-1e-5 -0.53051-0.0931-0.71875-0.28125l-2.2793-2.2812-2.2812 2.2812c-0.18796 0.18818-0.45351 0.28125-0.71875 0.28125h-0.99804v-1c0-0.26528 0.0921-0.5306 0.28125-0.71875l2.2793-2.25-2.2793-2.2812c-0.21065-0.19462-0.30312-0.46925-0.28125-0.75z"
              fill="#f46067"
              id="path868"
-             style="fill:#9bc78d;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -3061,7 +3061,7 @@
              d="m189 184c-5.5228 3e-5 -10 4.4772-10 10s4.4772 10 10 10c5.5228-3e-5 10-4.4772 10-10s-4.4772-10-10-10zm-3.9961 6h1c0.0138-1.2e-4 0.0197-4.7e-4 0.0293 0 0.25479 0.011 0.50985 0.12844 0.6875 0.3125l2.2812 2.2812 2.3106-2.2812c0.26536-0.23049 0.44659-0.3055 0.68749-0.3125h1v1c0 0.28647-0.0345 0.55067-0.25 0.75l-2.2793 2.2812 2.248 2.25c0.1881 0.18816 0.28125 0.45346 0.28125 0.71875v1h-1c-0.26524-1e-5 -0.53051-0.0931-0.71875-0.28125l-2.2793-2.2812-2.2812 2.2812c-0.18796 0.18818-0.45351 0.28125-0.71875 0.28125h-0.99804v-1c0-0.26528 0.0921-0.5306 0.28125-0.71875l2.2793-2.25-2.2793-2.2812c-0.21065-0.19462-0.30312-0.46925-0.28125-0.75z"
              fill="#da4d54"
              id="path916"
-             style="fill:#81b47a;fill-opacity:1" />
+             style="fill:#75507b;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -3149,7 +3149,7 @@
              d="m189 184c-5.5228 3e-5 -10 4.4772-10 10s4.4772 10 10 10c5.5228-3e-5 10-4.4772 10-10s-4.4772-10-10-10zm-3.9961 6h1c0.0138-1.2e-4 0.0197-4.7e-4 0.0293 0 0.25479 0.011 0.50985 0.12844 0.6875 0.3125l2.2812 2.2812 2.3106-2.2812c0.26536-0.23049 0.44659-0.3055 0.68749-0.3125h1v1c0 0.28647-0.0345 0.55067-0.25 0.75l-2.2793 2.2812 2.248 2.25c0.1881 0.18816 0.28125 0.45346 0.28125 0.71875v1h-1c-0.26524-1e-5 -0.53051-0.0931-0.71875-0.28125l-2.2793-2.2812-2.2812 2.2812c-0.18796 0.18818-0.45351 0.28125-0.71875 0.28125h-0.99804v-1c0-0.26528 0.0921-0.5306 0.28125-0.71875l2.2793-2.25-2.2793-2.2812c-0.21065-0.19462-0.30312-0.46925-0.28125-0.75z"
              fill="#f46067"
              id="path946"
-             style="fill:#9bc78d;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -3277,7 +3277,7 @@
              d="m189 184c-5.5228 3e-5 -10 4.4772-10 10s4.4772 10 10 10c5.5228-3e-5 10-4.4772 10-10s-4.4772-10-10-10zm-3.9961 6h1c0.0138-1.2e-4 0.0197-4.7e-4 0.0293 0 0.25479 0.011 0.50985 0.12844 0.6875 0.3125l2.2812 2.2812 2.3106-2.2812c0.26536-0.23049 0.44659-0.3055 0.68749-0.3125h1v1c0 0.28647-0.0345 0.55067-0.25 0.75l-2.2793 2.2812 2.248 2.25c0.1881 0.18816 0.28125 0.45346 0.28125 0.71875v1h-1c-0.26524-1e-5 -0.53051-0.0931-0.71875-0.28125l-2.2793-2.2812-2.2812 2.2812c-0.18796 0.18818-0.45351 0.28125-0.71875 0.28125h-0.99804v-1c0-0.26528 0.0921-0.5306 0.28125-0.71875l2.2793-2.25-2.2793-2.2812c-0.21065-0.19462-0.30312-0.46925-0.28125-0.75z"
              fill="#da4d54"
              id="path994"
-             style="fill:#81b47a;fill-opacity:1" />
+             style="fill:#75507b;fill-opacity:1" />
         </g>
       </g>
     </g>
@@ -3650,7 +3650,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect1111"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="41.062"
              cy="1041.4"
@@ -3729,7 +3729,7 @@
              ry="11"
              fill="#db5b5b"
              id="rect1137"
-             style="fill:#d14c49;fill-opacity:1" />
+             style="fill:#cc241d;fill-opacity:1" />
           <circle
              cx="40.688"
              cy="1041.4"
@@ -4129,7 +4129,7 @@
              ry="11"
              fill="#41ceb2"
              id="rect1254"
-             style="fill:#a9c78a;fill-opacity:1" />
+             style="fill:#ad7fa8;fill-opacity:1" />
           <circle
              cx="41.125"
              cy="1041.4"

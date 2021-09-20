@@ -6,12 +6,15 @@ This repository contains my custom theme of Matcha GTK theme with Alice/Azure/Te
 | ---       | ---               | ---                   |
 | Red       | Aliz (#F0544C)    | Alice (#EF2929)       |
 | Blue      | Azul (#3498DB)    | Azure (#3465A4)       |
-| Green     | Sea (#2EB398)     | Alice (#73D216)       |
+| Green     | Sea (#2EB398)     | Tea (#73D216)         |
 | Purple    | None              | Amethyst (#75507B)    |
 
+<img src="https://raw.githubusercontent.com/fawzakin/Matcha-gtk-theme/imgs/compare.png" alt="Compare" width="390"/>  
+
 ### TODO
-- [ ] Painstakingly recolor all png assets
+- [x] Painstakingly recolor all png assets (There's a bash script afterall)
 - [ ] Add screenshots
+- [ ] Modify `update-matcha-online.sh` to download this fork instead of the upstream
 
 <img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme [Original README]
 ======
@@ -116,4 +119,3 @@ Solus:
 ![02](https://github.com/vinceliuice/matcha/blob/imgs/screenshot02.png?raw=true) 
 ![03](https://github.com/vinceliuice/matcha/blob/imgs/screenshot03.png?raw=true) 
 ![04](https://github.com/vinceliuice/matcha/blob/imgs/screenshot04.png?raw=true) 
-![05](https://github.com/vinceliuice/matcha/blob/imgs/screenshot05.png?raw=true) 
