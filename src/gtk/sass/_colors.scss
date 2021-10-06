@@ -54,10 +54,10 @@ $warning_fg_color: white;
 $error_fg_color: white;
 $success_color: #73d216;
 $destructive_color: #db5b5b;
-$suggested_color: #33b165;
+$suggested_color: #2eb398;
 $destructive_fg_color: white;
 $suggested_fg_color: white;
-$progress_color: #db5b5b;
+$progress_color: #2eb398;
 
 @if $color=='alice' {
     $progress_color: #cc0000;
@@ -77,7 +77,7 @@ $progress_color: #db5b5b;
   $progress_color: #ad7fa8;
   $success_color: #3465a4;
   $destructive_color: #db5b5b;
-  $suggested_color: #33b165;
+  $suggested_color: #97BB72;
 }
 
 $drop_target_color: #F08437;

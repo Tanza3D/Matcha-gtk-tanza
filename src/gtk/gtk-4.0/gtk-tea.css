@@ -541,7 +541,7 @@ entry progress > trough > progress {
   background-image: none;
   border-radius: 0;
   border-width: 0 0 2px;
-  border-color: #db5b5b;
+  border-color: #2eb398;
   border-style: solid;
   box-shadow: none;
 }
@@ -901,8 +901,8 @@ popover.background.touch-selection button.flat:active, popover.background.magnif
 button.suggested-action {
   background-clip: border-box;
   color: white;
-  background-color: #33b165;
-  border-color: #33b165;
+  background-color: #2eb398;
+  border-color: #2eb398;
 }
 
 
@@ -910,15 +910,15 @@ button.suggested-action.flat {
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  color: #33b165;
+  color: #2eb398;
 }
 
 
 button.suggested-action:hover {
   background-clip: border-box;
   color: white;
-  background-color: #39c570;
-  border-color: #39c570;
+  background-color: #33c7a9;
+  border-color: #33c7a9;
 }
 
 
@@ -926,8 +926,8 @@ button.suggested-action:active,
 button.suggested-action:checked {
   background-clip: border-box;
   color: white;
-  background-color: #4ccb7e;
-  border-color: #4ccb7e;
+  background-color: #45cfb3;
+  border-color: #45cfb3;
 }
 
 
@@ -2443,7 +2443,7 @@ headerbar menubutton > button {
 }
 
 headerbar entry progress {
-  border-color: #db5b5b;
+  border-color: #2eb398;
   background-image: none;
   background-color: transparent;
 }
@@ -2602,29 +2602,29 @@ headerbar .linked:not(.vertical):not(.path-bar) > entry.warning + entry.error {
 headerbar button.suggested-action {
   background-clip: border-box;
   color: white;
-  background-color: #33b165;
-  border-color: #33b165;
+  background-color: #2eb398;
+  border-color: #2eb398;
 }
 
 headerbar button.suggested-action.flat {
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  color: #33b165;
+  color: #2eb398;
 }
 
 headerbar button.suggested-action:hover {
   background-clip: border-box;
   color: white;
-  background-color: #39c570;
-  border-color: #39c570;
+  background-color: #33c7a9;
+  border-color: #33c7a9;
 }
 
 headerbar button.suggested-action:active, headerbar button.suggested-action:checked {
   background-clip: border-box;
   color: white;
-  background-color: #4ccb7e;
-  border-color: #4ccb7e;
+  background-color: #45cfb3;
+  border-color: #45cfb3;
 }
 
 headerbar button.suggested-action.flat:disabled, headerbar button.suggested-action:disabled {
@@ -3049,8 +3049,8 @@ columnview.view.progressbar,
 treeview.view.progressbar {
   color: #ffffff;
   border-radius: 3px;
-  background-color: #db5b5b;
-  background-image: image(#db5b5b);
+  background-color: #2eb398;
+  background-image: image(#2eb398);
 }
 
 columnview.view.progressbar:selected, columnview.view.progressbar:selected:focus,
@@ -4317,7 +4317,7 @@ progressbar.osd > progress {
 }
 
 progressbar > trough > progress {
-  background-color: #db5b5b;
+  background-color: #2eb398;
   border: none;
   border-radius: 3px;
   box-shadow: none;
@@ -5361,11 +5361,11 @@ infobar.info > revealer > box selection, infobar.info:backdrop > revealer > box 
 }
 
 infobar.question > revealer > box, infobar.question:backdrop > revealer > box {
-  background-color: #33b165;
+  background-color: #2eb398;
 }
 
 infobar.question > revealer > box selection, infobar.question:backdrop > revealer > box selection {
-  color: #33b165;
+  color: #2eb398;
 }
 
 infobar.warning > revealer > box, infobar.warning:backdrop > revealer > box {

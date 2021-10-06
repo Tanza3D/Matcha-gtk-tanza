@@ -8,8 +8,8 @@ INDEX="assets.txt"
 for variant in '' '-dark'; do
   for color in '-alice' '-azure' '-tea' '-amethyst'; do
 
-    ASSETS_DIR="assets${variant}${color}"
-    SRC_FILE="assets${variant}${color}.svg"
+    ASSETS_DIR="assets${color}${variant}"
+    SRC_FILE="assets${color}${variant}.svg"
 
     install -d $ASSETS_DIR
 

@@ -36,10 +36,10 @@ usage() {
 install() {
   local dest="${1}"
   local name="${2}"
-  local color="${3}"
-  local theme="${4}"
+  local theme="${3}"
+  local color="${4}"
 
-  local themedir="${dest}/${name}${color}${theme}"
+  local themedir="${dest}/${name}${theme}${color}"
 
   [[ ${color} == '-dark' ]] && local ELSE_DARK="${color}"
   [[ ${color} == '-light' ]] && local ELSE_LIGHT="${color}"
@@ -52,13 +52,13 @@ install() {
   # Install index.theme
   echo "[Desktop Entry]"                                                           >> "${themedir}/index.theme"
   echo "Type=X-GNOME-Metatheme"                                                    >> "${themedir}/index.theme"
-  echo "Name=${name}${color}${theme}"                                              >> "${themedir}/index.theme"
+  echo "Name=${name}${theme}${color}"                                              >> "${themedir}/index.theme"
   echo "Comment=A dark modern design theme"                                        >> "${themedir}/index.theme"
   echo "Encoding=UTF-8"                                                            >> "${themedir}/index.theme"
   echo ""                                                                          >> "${themedir}/index.theme"
   echo "[X-GNOME-Metatheme]"                                                       >> "${themedir}/index.theme"
-  echo "GtkTheme=${name}${color}${theme}"                                          >> "${themedir}/index.theme"
-  echo "MetacityTheme=${name}${color}${theme}"                                     >> "${themedir}/index.theme"
+  echo "GtkTheme=${name}${theme}${color}"                                          >> "${themedir}/index.theme"
+  echo "MetacityTheme=${name}${theme}${color}"                                     >> "${themedir}/index.theme"
   echo "IconTheme=Qogir-manjaro"                                                   >> "${themedir}/index.theme"
   echo "CursorTheme=Qogir-manjaro"                                                 >> "${themedir}/index.theme"
   echo "ButtonLayout=menu:minimize,maximize,close"                                 >> "${themedir}/index.theme"
@@ -71,9 +71,9 @@ install() {
   cp -ur common-assets                                                                "${themedir}/gnome-shell/assets"
 
   if [[ "${GS_VERSION:-}" == 'new' ]]; then
-    cp -ur "40.0/gnome-shell${ELSE_DARK}${theme}.css"                                 "${themedir}/gnome-shell/gnome-shell.css"
+    cp -ur "40.0/gnome-shell${theme}${ELSE_DARK}.css"                                 "${themedir}/gnome-shell/gnome-shell.css"
   else
-    cp -ur "3.28/gnome-shell${ELSE_DARK}${theme}.css"                                 "${themedir}/gnome-shell/gnome-shell.css"
+    cp -ur "3.28/gnome-shell${theme}${ELSE_DARK}.css"                                 "${themedir}/gnome-shell/gnome-shell.css"
   fi
 
   cd "${SRC_DIR}/gnome-shell/assets"
@@ -94,23 +94,23 @@ install() {
   mkdir -p                                                                            "${themedir}/gtk-2.0"
   cd "${SRC_DIR}/gtk-2.0"
   cp -ur {apps.rc,main.rc,panel.rc,xfce-notify.rc}                                    "${themedir}/gtk-2.0"
-  cp -ur "gtkrc${color}${theme}"                                                      "${themedir}/gtk-2.0/gtkrc"
-  cp -ur assets${ELSE_DARK}${theme}                                                   "${themedir}/gtk-2.0/assets"
+  cp -ur "gtkrc${theme}${color}"                                                      "${themedir}/gtk-2.0/gtkrc"
+  cp -ur assets${theme}${ELSE_DARK}                                                   "${themedir}/gtk-2.0/assets"
   cp -ur "menubar-toolbar${ELSE_DARK}.rc"                                             "${themedir}/gtk-2.0/menubar-toolbar.rc"
 
   # Install GTK+ 3.0 Theme
   mkdir -p                                                                            "${themedir}/gtk-3.0"
   cd "${SRC_DIR}/gtk"
   cp -ur "assets${theme}"                                                             "${themedir}/gtk-3.0/assets"
-  cp -ur "gtk-3.0/gtk${color}${theme}.css"                                            "${themedir}/gtk-3.0/gtk.css"
-  cp -ur "gtk-3.0/gtk-dark${theme}.css"                                               "${themedir}/gtk-3.0/gtk-dark.css"
+  cp -ur "gtk-3.0/gtk${theme}${color}.css"                                            "${themedir}/gtk-3.0/gtk.css"
+  cp -ur "gtk-3.0/gtk${theme}-dark.css"                                               "${themedir}/gtk-3.0/gtk-dark.css"
 
-  cp -ur "thumbnail${ELSE_DARK}${theme}.png"                                          "${themedir}/gtk-3.0/thumbnail.png"
+  cp -ur "thumbnail${theme}${ELSE_DARK}.png"                                          "${themedir}/gtk-3.0/thumbnail.png"
 
   # Install GTK+ 4.0 Theme
   mkdir -p                                                                            "${themedir}/gtk-4.0"
-  cp -ur "gtk-4.0/gtk${color}${theme}.css"                                            "${themedir}/gtk-4.0/gtk.css"
-  cp -ur "gtk-4.0/gtk-dark${theme}.css"                                               "${themedir}/gtk-4.0/gtk-dark.css"
+  cp -ur "gtk-4.0/gtk${theme}${color}.css"                                            "${themedir}/gtk-4.0/gtk.css"
+  cp -ur "gtk-4.0/gtk${theme}-dark.css"                                               "${themedir}/gtk-4.0/gtk-dark.css"
   cd "${themedir}/gtk-4.0"
   ln -sf ../gtk-3.0/assets  assets
   ln -sf ../gtk-3.0/thumbnail.png thumbnail.png
@@ -118,8 +118,8 @@ install() {
   # Install CINNAMON Theme
   mkdir -p                                                                            "${themedir}/cinnamon"
   cd "${SRC_DIR}/cinnamon"
-  cp -ur "cinnamon${ELSE_DARK}${theme}.css"                                           "${themedir}/cinnamon/cinnamon.css"
-  cp -ur "thumbnail${ELSE_DARK}${theme}.png"                                          "${themedir}/cinnamon/thumbnail.png"
+  cp -ur "cinnamon${theme}${ELSE_DARK}.css"                                           "${themedir}/cinnamon/cinnamon.css"
+  cp -ur "thumbnail${theme}${ELSE_DARK}.png"                                          "${themedir}/cinnamon/thumbnail.png"
 
   cd "${SRC_DIR}/cinnamon/assets${theme}"
   cp -ur common-assets                                                                "${themedir}/cinnamon"
@@ -137,7 +137,7 @@ install() {
   # Install xfwm4 Theme
   mkdir -p                                                                            "${themedir}/xfwm4"
   cd "${SRC_DIR}/xfwm4"
-  cp -ur "assets${color}${theme}"/*.png                                               "${themedir}/xfwm4"
+  cp -ur "assets${theme}${color}"/*.png                                               "${themedir}/xfwm4"
 
   if [[ "${color}" == '-light' ]] ; then
     cp -ur "themerc${color}"                                                          "${themedir}/xfwm4/themerc"
@@ -149,7 +149,7 @@ install() {
   mkdir -p                                                                            "${themedir}/openbox-3"
   cd "${SRC_DIR}/openbox-3"
   cp -ur *.xbm                                                                        "${themedir}/openbox-3"
-  cp -ur "themerc${ELSE_DARK}${theme}"                                                "${themedir}/openbox-3/themerc"
+  cp -ur "themerc${theme}${ELSE_DARK}"                                                "${themedir}/openbox-3/themerc"
 
   # Install Unity Theme
   mkdir -p                                                                            "${themedir}/unity"
@@ -225,12 +225,12 @@ install_gdm() {
     rm -rf "$UBUNTU_YARU_THEME_FILE"
     rm -rf "$YARU_GDM_THEME_DIR" && mkdir -p "$YARU_GDM_THEME_DIR"
 
-    mkdir -p                                                                             "$YARU_GDM_THEME_DIR"/gnome-shell
-    mkdir -p                                                                             "$YARU_GDM_THEME_DIR"/gnome-shell/Yaru
-    cp -r "$SRC_DIR"/gnome-shell/{icons,pad-osd.css}                                     "$YARU_GDM_THEME_DIR"/gnome-shell
-    cp -r "$SRC_DIR"/gnome-shell/gnome-shell"${ELSE_DARK}${theme}".css                 "$YARU_GDM_THEME_DIR"/gnome-shell/gdm3.css
-    cp -r "$SRC_DIR"/gnome-shell/gnome-shell"${ELSE_DARK}${theme}".css                 "$YARU_GDM_THEME_DIR"/gnome-shell/Yaru/gnome-shell.css
-    cp -r "$SRC_DIR"/gnome-shell/common-assets                                           "$YARU_GDM_THEME_DIR"/gnome-shell/assets
+    mkdir -p                                                                           "$YARU_GDM_THEME_DIR"/gnome-shell
+    mkdir -p                                                                           "$YARU_GDM_THEME_DIR"/gnome-shell/Yaru
+    cp -r "$SRC_DIR"/gnome-shell/{icons,pad-osd.css}                                   "$YARU_GDM_THEME_DIR"/gnome-shell
+    cp -r "$SRC_DIR"/gnome-shell/gnome-shell"${theme}${ELSE_DARK}".css                 "$YARU_GDM_THEME_DIR"/gnome-shell/gdm3.css
+    cp -r "$SRC_DIR"/gnome-shell/gnome-shell"${theme}${ELSE_DARK}".css                 "$YARU_GDM_THEME_DIR"/gnome-shell/Yaru/gnome-shell.css
+    cp -r "$SRC_DIR"/gnome-shell/common-assets                                         "$YARU_GDM_THEME_DIR"/gnome-shell/assets
     cp -r "$SRC_DIR"/gnome-shell/assets/calendar-arrow-left"${ELSE_DARK}".svg          "$YARU_GDM_THEME_DIR"/gnome-shell/assets/calendar-arrow-left.svg
     cp -r "$SRC_DIR"/gnome-shell/assets/calendar-arrow-right"${ELSE_DARK}".svg         "$YARU_GDM_THEME_DIR"/gnome-shell/assets/calendar-arrow-right.svg
     cp -r "$SRC_DIR"/gnome-shell/assets/checkbox-off"${ELSE_DARK}".svg                 "$YARU_GDM_THEME_DIR"/gnome-shell/assets/checkbox-off.svg
@@ -294,7 +294,7 @@ revert_gdm() {
 install_theme() {
 for color in "${colors[@]:-${COLOR_VARIANTS[@]}}"; do
   for theme in "${themes[@]:-${THEME_VARIANTS[@]}}"; do
-    install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${color}" "${theme}"
+    install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
   done
 done
 }
@@ -431,7 +431,7 @@ if [[ "${gdm:-}" != 'true' && "${revert:-}" != 'true' ]]; then
 fi
 
 if [[ "${gdm:-}" == 'true' && "${revert:-}" != 'true' && "$UID" -eq "$ROOT_UID" ]]; then
-  install_theme && install_gdm "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${color}" "${theme}"
+  install_theme && install_gdm "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
 fi
 
 if [[ "${gdm:-}" != 'true' && "${revert:-}" == 'true' && "$UID" -eq "$ROOT_UID" ]]; then

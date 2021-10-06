@@ -24,25 +24,25 @@ fi
 
 for color in "${_COLOR_VARIANTS[@]}"; do
   for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/gtk/gtk-3.0/gtk${color}${theme}.{scss,css}
-  echo "==> Generating the GTK 3.0 gtk${color}${theme}.css..."
-  sassc $SASSC_OPT src/gtk/gtk-4.0/gtk${color}${theme}.{scss,css}
-  echo "==> Generating the GTK 4.0 gtk${color}${theme}.css..."
+  sassc $SASSC_OPT src/gtk/gtk-3.0/gtk${theme}${color}.{scss,css}
+  echo "==> Generating the GTK 3.0 gtk${theme}${color}.css..."
+  sassc $SASSC_OPT src/gtk/gtk-4.0/gtk${theme}${color}.{scss,css}
+  echo "==> Generating the GTK 4.0 gtk${theme}${color}.css..."
   done
 done
 
 for color in "${_ECOLOR_VARIANTS[@]}"; do
   for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/gnome-shell/3.28/gnome-shell${color}${theme}.{scss,css}
-  echo "==> Generating the 3.28 gnome-shell${color}${theme}.css..."
-  sassc $SASSC_OPT src/gnome-shell/40.0/gnome-shell${color}${theme}.{scss,css}
-  echo "==> Generating the 40.0 gnome-shell${color}${theme}.css..."
+  sassc $SASSC_OPT src/gnome-shell/3.28/gnome-shell${theme}${color}.{scss,css}
+  echo "==> Generating the 3.28 gnome-shell${theme}${color}.css..."
+  sassc $SASSC_OPT src/gnome-shell/40.0/gnome-shell${theme}${color}.{scss,css}
+  echo "==> Generating the 40.0 gnome-shell${theme}${color}.css..."
   done
 done
 
 for color in "${_ECOLOR_VARIANTS[@]}"; do
   for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/cinnamon/cinnamon${color}${theme}.{scss,css}
-  echo "==> Generating the cinnamon${color}${theme}.css..."
+  sassc $SASSC_OPT src/cinnamon/cinnamon${theme}${color}.{scss,css}
+  echo "==> Generating the cinnamon${theme}${color}.css..."
   done
 done
