@@ -1123,7 +1123,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-color: rgba(97, 119, 125, 0.35);
   border: 1px solid rgba(21, 26, 28, 0.35);
   box-shadow: none;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-color: #75507b;
 }
 

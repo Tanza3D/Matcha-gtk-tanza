@@ -1,16 +1,9 @@
-/*
-@if $color=='amethyst' {
-  $wm_button_close_bg: #75507b;
-  $wm_button_close_hover_bg: #9BC78D;
-  $wm_button_close_active_bg: #73BE81;
-}
-*/
 @keyframes header_ripple_effect {
   from {
-    background-image: radial-gradient(circle farthest-corner at center, #1a1a1a 0%, transparent 0%);
+    background-image: radial-gradient(circle farthest-corner at center, #1B141B 0%, transparent 0%);
   }
   to {
-    background-image: radial-gradient(circle farthest-corner at center, #1a1a1a 100%, transparent 0%);
+    background-image: radial-gradient(circle farthest-corner at center, #1B141B 100%, transparent 0%);
   }
 }
 
@@ -1615,7 +1608,7 @@ toolbar:not(.inline-toolbar) .linked > entry,
 }
 
 .inline-toolbar {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.25);
   border-width: 0 1px 1px;
@@ -1633,7 +1626,7 @@ searchbar > revealer > box {
   padding: 6px;
   margin: -6px;
   border-style: solid;
-  border-color: #1a1a1a;
+  border-color: #1B141B;
   background-color: #222222;
   border-width: 0 0 1px;
 }
@@ -1641,14 +1634,14 @@ searchbar > revealer > box {
 actionbar > revealer > box {
   padding: 6px;
   border-top: 1px solid rgba(0, 0, 0, 0.25);
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 headerbar {
   min-height: 42px;
   padding: 0 10px;
   color: #d0c6c6;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 headerbar:backdrop {
@@ -1703,7 +1696,7 @@ headerbar.selection-mode .selection-menu .arrow {
 }
 
 .maximized headerbar {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-color: #101010;
 }
 
@@ -1714,7 +1707,7 @@ headerbar.selection-mode .selection-menu .arrow {
 headerbar.default-decoration {
   min-height: 28px;
   padding: 0 6px;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 .tiled headerbar.default-decoration, .maximized headerbar.default-decoration, .fullscreen headerbar.default-decoration {
@@ -1787,7 +1780,7 @@ window.background > box.vertical > headerbar:not(.titlebar) {
 }
 
 window.background > box.vertical > headerbar:not(.titlebar), window.background > box.vertical > headerbar:not(.titlebar):backdrop {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 separator:first-child + window.background > box.vertical > headerbar:not(.titlebar), separator:first-child + window.background > box.vertical > headerbar:not(.titlebar):backdrop, window.background > box.vertical > headerbar:not(.titlebar):first-child, window.background > box.vertical > headerbar:not(.titlebar):first-child:backdrop {
@@ -2332,7 +2325,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 }
 
 .titlebar:not(headerbar) > separator {
-  background-image: linear-gradient(to bottom, #1a1a1a, #1a1a1a);
+  background-image: linear-gradient(to bottom, #1B141B, #1B141B);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -2555,7 +2548,7 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0 0 0 0;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   color: #d0c6c6;
 }
 
@@ -4323,12 +4316,12 @@ filechooserbutton:drop(active) {
 }
 
 stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left {
-  border-right: 1px solid #1a1a1a;
+  border-right: 1px solid #1B141B;
   border-left-style: none;
 }
 
 stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:dir(rtl), .sidebar.right {
-  border-left: 1px solid #1a1a1a;
+  border-left: 1px solid #1B141B;
   border-right-style: none;
 }
 
@@ -4857,10 +4850,10 @@ messagedialog.csd decoration {
 }
 
 .solid-csd decoration {
-  border: 1px solid #1a1a1a;
+  border: 1px solid #1B141B;
   border-radius: 0;
   margin: 0;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   box-shadow: none;
 }
 
@@ -5268,7 +5261,7 @@ window.thunar toolbar .linked:not(.vertical):not(.stack-switcher).path-bar butto
 }
 
 .disk-space-display.free {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-color: #010101;
 }
 
@@ -5877,7 +5870,7 @@ frame.sidebar.chat-sidebar frame.chat-status-area > border {
 
 widget#PROCESSOR list row, widget#MEMORY list row {
   margin: -1px;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #1B141B;
 }
 
 widget#PROCESSOR list row.max, widget#MEMORY list row.max {
@@ -5885,7 +5878,7 @@ widget#PROCESSOR list row.max, widget#MEMORY list row.max {
 }
 
 widget#PROCESSOR list separator.list, widget#MEMORY list separator.list {
-  box-shadow: inset 0 0 0 1px #1a1a1a;
+  box-shadow: inset 0 0 0 1px #1B141B;
 }
 
 widget#STORAGE list {
@@ -5901,7 +5894,7 @@ widget#STORAGE list row.activatable:hover, widget#STORAGE list row.activatable:a
 }
 
 widget#STORAGE list separator.list {
-  box-shadow: inset 0 0 0 1px #1a1a1a;
+  box-shadow: inset 0 0 0 1px #1B141B;
 }
 
 widget#PERFORMANCE searchbar {
@@ -6007,7 +6000,7 @@ window.background > box.vertical box.horizontal > box.vertical > scrolledwindow 
 }
 
 window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row {
-  background-image: image(#1a1a1a);
+  background-image: image(#1B141B);
   color: #9d8787;
   transition-property: opacity, border-image, background-image, box-shadow;
 }
@@ -6083,7 +6076,7 @@ window.background > box.vertical > overlay > stack > widget > stack widget > box
 
 .category_page_header_filter_box {
   background-image: image(#222222);
-  border-image: linear-gradient(to bottom, #1a1a1a, #1a1a1a) 0 0 1 0/0 0 1px 0 stretch;
+  border-image: linear-gradient(to bottom, #1B141B, #1B141B) 0 0 1 0/0 0 1px 0 stretch;
 }
 
 .category_page_header_filter_box button {
@@ -6105,7 +6098,7 @@ window.background > box.vertical > overlay > stack > widget > stack widget > box
 
 .application-details-infobar {
   background-image: image(#262626);
-  border-image: linear-gradient(to bottom, #1a1a1a, #1a1a1a) 1 1 1 1/1px 1px 1px 1px stretch;
+  border-image: linear-gradient(to bottom, #1B141B, #1B141B) 1 1 1 1/1px 1px 1px 1px stretch;
 }
 
 headerbar.titlebar.incognito-mode entry {
@@ -6324,7 +6317,7 @@ tabbox > tab button:active, tabbox > tab button:active:hover {
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > separator.sidebar,
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > leaflet > separator.sidebar {
   min-width: 1px;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-right: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
@@ -6359,7 +6352,7 @@ tabbox > tab button:active, tabbox > tab button:active:hover {
 .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar {
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
   padding: 4px;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button > widget > box > image {
@@ -6386,7 +6379,7 @@ tabbox > tab button:active, tabbox > tab button:active:hover {
 }
 
 .sidebar-paned separator {
-  background-image: image(#1a1a1a);
+  background-image: image(#1B141B);
 }
 
 window.csd > box.vertical > box.vertical > toolbar.horizontal, window.csd > box.vertical > box.vertical > .horizontal.inline-toolbar,
@@ -6497,7 +6490,7 @@ dialog.background.csd box.dialog-vbox grid.horizontal stack scrolledwindow.frame
 }
 
 .nemo-window paned.horizontal > separator {
-  background-image: image(#1a1a1a);
+  background-image: image(#1B141B);
 }
 
 .nemo-window .nemo-places-sidebar.frame {
@@ -6506,7 +6499,7 @@ dialog.background.csd box.dialog-vbox grid.horizontal stack scrolledwindow.frame
 
 .nemo-window .nemo-places-sidebar .places-treeview {
   background-color: #222222;
-  -NemoPlacesTreeView-disk-full-bg-color: #1a1a1a;
+  -NemoPlacesTreeView-disk-full-bg-color: #1B141B;
   -NemoPlacesTreeView-disk-full-fg-color: #b30000;
 }
 
@@ -6548,7 +6541,7 @@ dialog.background.csd box.dialog-vbox grid.horizontal stack scrolledwindow.frame
   padding-bottom: 0;
   border: none;
   color: #d0c6c6;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 .nemo-window .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) > entry + entry,
@@ -6833,14 +6826,14 @@ window.background.chromium headerbar.titlebar button.titlebutton {
 window.background.chromium button {
   border-width: 1px;
   border-style: solid;
-  border-color: #1a1a1a;
+  border-color: #1B141B;
   background-color: #222222;
   color: #cbbfbf;
 }
 
 window.background.chromium entry.chromium {
   border-image: none;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #1B141B;
   background-color: #222222;
   color: #cbbfbf;
 }
@@ -6861,7 +6854,7 @@ window.background.chromium > textview text {
 }
 
 window.background.chromium > menubar {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   color: #d0c6c6;
 }
 
@@ -6870,7 +6863,7 @@ window.background.chromium > menubar > menuitem {
 }
 
 window.background.chromium > menu {
-  border: 1px solid #1a1a1a;
+  border: 1px solid #1B141B;
   background-color: #222222;
   color: #cbbfbf;
 }
@@ -6895,7 +6888,7 @@ window.background.chromium > menu > menuitem:disabled, window.background.chromiu
 
 tooltip.background.chromium {
   border-color: rgba(16, 16, 16, 0.95);
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 overlay.window-overlay grid.horizontal stack paned.horizontal stack widget.view.frame,
@@ -6912,7 +6905,7 @@ overlay.window-overlay grid.horizontal stack .sidebar {
  * Libre-Office *
  ****************/
 window.background:not(.csd):not(.solid-csd) > grid.horizontal > grid.horizontal {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
 }
 
 window.background:not(.csd):not(.solid-csd) > grid.horizontal > grid.horizontal > button.flat.small-button {
@@ -7429,7 +7422,7 @@ PanelToplevel.mate-panel-menu-bar > grid.horizontal > button:not(:first-child):d
 }
 
 .caja-navigation-window toolbar#Toolbar.primary-toolbar, .caja-navigation-window #Toolbar.primary-toolbar.inline-toolbar {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   color: #d0c6c6;
 }
 
@@ -7438,11 +7431,11 @@ window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame 
 }
 
 window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame:dir(ltr) {
-  border-left: 1px solid #1a1a1a;
+  border-left: 1px solid #1B141B;
 }
 
 window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame:dir(rtl) {
-  border-right: 1px solid #1a1a1a;
+  border-right: 1px solid #1B141B;
 }
 
 window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame > widget.view {
@@ -7462,11 +7455,11 @@ window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame 
 }
 
 .background:not(.csd) > box.horizontal > notebook.frame > stack:dir(ltr) {
-  border-left-color: #1a1a1a;
+  border-left-color: #1B141B;
 }
 
 .background:not(.csd) > box.horizontal > notebook.frame > stack:dir(rtl) {
-  border-right-color: #1a1a1a;
+  border-right-color: #1B141B;
 }
 
 .eom-window statusbar {
@@ -7517,7 +7510,7 @@ window#MyControlCenter > frame > box.horizontal > widget > scrolledwindow.frame 
 .atril-window.fullscreen.background > box.vertical > toolbar:not(.primary-toolbar).horizontal, .atril-window.fullscreen.background > box.vertical > .inline-toolbar:not(.primary-toolbar).horizontal,
 .xreader-window.fullscreen.background > box.vertical > toolbar:not(.primary-toolbar).horizontal,
 .xreader-window.fullscreen.background > box.vertical > .inline-toolbar:not(.primary-toolbar).horizontal {
-  border-bottom-color: #1a1a1a;
+  border-bottom-color: #1B141B;
 }
 
 .atril-window.fullscreen.background > box.vertical > paned.horizontal,
@@ -9096,7 +9089,7 @@ window#whiskermenu-window > frame > stack scrolledwindow .view:selected:hover {
 }
 
 window.thunar paned.horizontal > separator {
-  background-image: image(#1a1a1a);
+  background-image: image(#1B141B);
 }
 
 window.thunar .sidebar {
@@ -9114,7 +9107,7 @@ window.thunar .sidebar treeview.view:hover {
 }
 
 window.thunar toolbar, window.thunar .inline-toolbar {
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   color: #d0c6c6;
 }
 
@@ -9387,7 +9380,7 @@ headerbar.titlebar button.flat.image-button.toggle {
 }
 
 headerbar.titlebar > grid.linked.horizontal.format-bar {
-  background-image: image(#1a1a1a);
+  background-image: image(#1B141B);
 }
 
 popover radiobutton.color-button.color-light, popover radiobutton.color-button.color-dark, popover radiobutton.color-button.color-white {
@@ -9507,7 +9500,7 @@ scale.warmth trough {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #1a1a1a;
+  background-color: #1B141B;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -10099,14 +10092,14 @@ filechooser placessidebar.sidebar scrollbar trough,
 @define-color text_view_bg #171717;
 @define-color wm_title alpha(#d0c6c6, 0.8);
 @define-color wm_unfocused_title alpha(#d0c6c6, 0.5);
-@define-color wm_bg #1a1a1a;
+@define-color wm_bg #1B141B;
 @define-color wm_bg_unfocused #272727;
 @define-color wm_highlight #222222;
 @define-color wm_shadow alpha(black, 0.35);
 @define-color wm_button_close_bg #cc575d;
 @define-color wm_button_close_hover_bg #d7787d;
 @define-color wm_button_close_active_bg #be3841;
-@define-color wm_icon_close_bg #1a1a1a;
+@define-color wm_icon_close_bg #1B141B;
 @define-color wm_button_hover_bg #343434;
 @define-color wm_button_active_bg #ef2929;
 @define-color wm_button_hover_border #101010;
